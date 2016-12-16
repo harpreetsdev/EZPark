@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		105340BE1E04A74100F410D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105340BD1E04A74100F410D1 /* AppDelegate.swift */; };
+		105340C01E04A74100F410D1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105340BF1E04A74100F410D1 /* ViewController.swift */; };
+		105340C31E04A74100F410D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 105340C11E04A74100F410D1 /* Main.storyboard */; };
+		105340C61E04A74100F410D1 /* EZPark.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 105340C41E04A74100F410D1 /* EZPark.xcdatamodeld */; };
+		105340C81E04A74100F410D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 105340C71E04A74100F410D1 /* Assets.xcassets */; };
+		105340CB1E04A74100F410D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 105340C91E04A74100F410D1 /* LaunchScreen.storyboard */; };
+		105340D61E04A74100F410D1 /* EZParkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105340D51E04A74100F410D1 /* EZParkTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		105340D21E04A74100F410D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 105340B21E04A74100F410D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 105340B91E04A74100F410D1;
+			remoteInfo = EZPark;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		105340BA1E04A74100F410D1 /* EZPark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EZPark.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		105340BD1E04A74100F410D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		105340BF1E04A74100F410D1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		105340C21E04A74100F410D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		105340C51E04A74100F410D1 /* EZPark.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EZPark.xcdatamodel; sourceTree = "<group>"; };
+		105340C71E04A74100F410D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		105340CA1E04A74100F410D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		105340CC1E04A74100F410D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		105340D11E04A74100F410D1 /* EZParkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EZParkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		105340D51E04A74100F410D1 /* EZParkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EZParkTests.swift; sourceTree = "<group>"; };
+		105340D71E04A74100F410D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		105340B71E04A74100F410D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		105340CE1E04A74100F410D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		105340B11E04A74100F410D1 = {
+			isa = PBXGroup;
+			children = (
+				105340BC1E04A74100F410D1 /* EZPark */,
+				105340D41E04A74100F410D1 /* EZParkTests */,
+				105340BB1E04A74100F410D1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		105340BB1E04A74100F410D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				105340BA1E04A74100F410D1 /* EZPark.app */,
+				105340D11E04A74100F410D1 /* EZParkTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		105340BC1E04A74100F410D1 /* EZPark */ = {
+			isa = PBXGroup;
+			children = (
+				105340BD1E04A74100F410D1 /* AppDelegate.swift */,
+				105340BF1E04A74100F410D1 /* ViewController.swift */,
+				105340C11E04A74100F410D1 /* Main.storyboard */,
+				105340C71E04A74100F410D1 /* Assets.xcassets */,
+				105340C91E04A74100F410D1 /* LaunchScreen.storyboard */,
+				105340CC1E04A74100F410D1 /* Info.plist */,
+				105340C41E04A74100F410D1 /* EZPark.xcdatamodeld */,
+			);
+			path = EZPark;
+			sourceTree = "<group>";
+		};
+		105340D41E04A74100F410D1 /* EZParkTests */ = {
+			isa = PBXGroup;
+			children = (
+				105340D51E04A74100F410D1 /* EZParkTests.swift */,
+				105340D71E04A74100F410D1 /* Info.plist */,
+			);
+			path = EZParkTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		105340B91E04A74100F410D1 /* EZPark */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 105340DA1E04A74100F410D1 /* Build configuration list for PBXNativeTarget "EZPark" */;
+			buildPhases = (
+				105340B61E04A74100F410D1 /* Sources */,
+				105340B71E04A74100F410D1 /* Frameworks */,
+				105340B81E04A74100F410D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EZPark;
+			productName = EZPark;
+			productReference = 105340BA1E04A74100F410D1 /* EZPark.app */;
+			productType = "com.apple.product-type.application";
+		};
+		105340D01E04A74100F410D1 /* EZParkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 105340DD1E04A74100F410D1 /* Build configuration list for PBXNativeTarget "EZParkTests" */;
+			buildPhases = (
+				105340CD1E04A74100F410D1 /* Sources */,
+				105340CE1E04A74100F410D1 /* Frameworks */,
+				105340CF1E04A74100F410D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				105340D31E04A74100F410D1 /* PBXTargetDependency */,
+			);
+			name = EZParkTests;
+			productName = EZParkTests;
+			productReference = 105340D11E04A74100F410D1 /* EZParkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		105340B21E04A74100F410D1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "HARPREET SINGH";
+				TargetAttributes = {
+					105340B91E04A74100F410D1 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = B59S6WSQJH;
+						ProvisioningStyle = Automatic;
+					};
+					105340D01E04A74100F410D1 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = B59S6WSQJH;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 105340B91E04A74100F410D1;
+					};
+				};
+			};
+			buildConfigurationList = 105340B51E04A74100F410D1 /* Build configuration list for PBXProject "EZPark" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 105340B11E04A74100F410D1;
+			productRefGroup = 105340BB1E04A74100F410D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				105340B91E04A74100F410D1 /* EZPark */,
+				105340D01E04A74100F410D1 /* EZParkTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		105340B81E04A74100F410D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				105340CB1E04A74100F410D1 /* LaunchScreen.storyboard in Resources */,
+				105340C81E04A74100F410D1 /* Assets.xcassets in Resources */,
+				105340C31E04A74100F410D1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		105340CF1E04A74100F410D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		105340B61E04A74100F410D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				105340C61E04A74100F410D1 /* EZPark.xcdatamodeld in Sources */,
+				105340C01E04A74100F410D1 /* ViewController.swift in Sources */,
+				105340BE1E04A74100F410D1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		105340CD1E04A74100F410D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				105340D61E04A74100F410D1 /* EZParkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		105340D31E04A74100F410D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 105340B91E04A74100F410D1 /* EZPark */;
+			targetProxy = 105340D21E04A74100F410D1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		105340C11E04A74100F410D1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				105340C21E04A74100F410D1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		105340C91E04A74100F410D1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				105340CA1E04A74100F410D1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		105340D81E04A74100F410D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		105340D91E04A74100F410D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		105340DB1E04A74100F410D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = B59S6WSQJH;
+				INFOPLIST_FILE = EZPark/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HSR.EZPark;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		105340DC1E04A74100F410D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = B59S6WSQJH;
+				INFOPLIST_FILE = EZPark/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HSR.EZPark;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		105340DE1E04A74100F410D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = B59S6WSQJH;
+				INFOPLIST_FILE = EZParkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HSR.EZParkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EZPark.app/EZPark";
+			};
+			name = Debug;
+		};
+		105340DF1E04A74100F410D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = B59S6WSQJH;
+				INFOPLIST_FILE = EZParkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HSR.EZParkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EZPark.app/EZPark";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		105340B51E04A74100F410D1 /* Build configuration list for PBXProject "EZPark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				105340D81E04A74100F410D1 /* Debug */,
+				105340D91E04A74100F410D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		105340DA1E04A74100F410D1 /* Build configuration list for PBXNativeTarget "EZPark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				105340DB1E04A74100F410D1 /* Debug */,
+				105340DC1E04A74100F410D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		105340DD1E04A74100F410D1 /* Build configuration list for PBXNativeTarget "EZParkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				105340DE1E04A74100F410D1 /* Debug */,
+				105340DF1E04A74100F410D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		105340C41E04A74100F410D1 /* EZPark.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				105340C51E04A74100F410D1 /* EZPark.xcdatamodel */,
+			);
+			currentVersion = 105340C51E04A74100F410D1 /* EZPark.xcdatamodel */;
+			path = EZPark.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 105340B21E04A74100F410D1 /* Project object */;
+}
