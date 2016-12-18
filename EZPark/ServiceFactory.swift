@@ -9,5 +9,13 @@
 import UIKit
 
 class ServiceFactory: NSObject {
-
+  public static let sharedInstance = ServiceFactory()
+    
+    override init() {
+    super.init()
+    }
+    
+    func provideAPIKey() -> String {
+     return "AIzaSyDAUqH59q5i0neI3MOAolYDrcpgCvPkCgA"
+    }
 }
