@@ -11,6 +11,7 @@ import GoogleMaps
 
 class MapViewController: UIViewController {
 
+    @IBOutlet weak var locationButton: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -33,6 +34,10 @@ class MapViewController: UIViewController {
         marker.map = mapView
     }
 
+    @IBAction func locationButtonTap(_ sender: UIButton) {
+        print("Location Button Tapped")
+        
+    }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

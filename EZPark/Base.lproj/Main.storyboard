@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Ylb-5I-qFA">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="pMf-dT-lVU">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -25,7 +25,130 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-895" y="-432"/>
+            <point key="canvasLocation" x="-497" y="-265"/>
+        </scene>
+        <!--Meter-->
+        <scene sceneID="KuB-Ld-HuM">
+            <objects>
+                <viewController id="KQt-83-0jK" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="H6E-O7-vNN"/>
+                        <viewControllerLayoutGuide type="bottom" id="vMp-9l-pIt"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="PHw-fb-4cG">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <accessibility key="accessibilityConfiguration">
+                            <bool key="isElement" value="YES"/>
+                        </accessibility>
+                        <rect key="contentStretch" x="0.0" y="0.0" width="0.75" height="1"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Meter" image="Meter" id="eF2-8W-YfQ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="btC-3p-Eqv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2121" y="-780"/>
+        </scene>
+        <!--Map-->
+        <scene sceneID="unm-fP-Rxa">
+            <objects>
+                <viewController id="Kgq-mR-l5N" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="yuM-UA-ybF"/>
+                        <viewControllerLayoutGuide type="bottom" id="rhg-73-iDK"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="JWS-eN-wbZ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Map" image="Icon-App-40x40" id="VD1-gQ-ZNc"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gpF-Ud-iXr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2820" y="-780"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="NI3-B0-epj">
+            <objects>
+                <tabBarController id="pMf-dT-lVU" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="OYH-fP-Dxr">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="Kgq-mR-l5N" kind="relationship" relationship="viewControllers" id="w5G-Kk-qoI"/>
+                        <segue destination="KQt-83-0jK" kind="relationship" relationship="viewControllers" id="to0-hL-xPg"/>
+                        <segue destination="V5h-ba-5cM" kind="relationship" relationship="viewControllers" id="XQM-Y3-hO6"/>
+                        <segue destination="XMn-xH-40s" kind="relationship" relationship="viewControllers" id="gho-ez-U37"/>
+                        <segue destination="t5R-4W-xl2" kind="relationship" relationship="viewControllers" id="Obe-d1-4ns"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="w8p-Ej-Lyg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3519" y="-780"/>
+        </scene>
+        <!--Find My Car-->
+        <scene sceneID="9dw-wS-yQr">
+            <objects>
+                <viewController id="V5h-ba-5cM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="tRh-MK-MDS"/>
+                        <viewControllerLayoutGuide type="bottom" id="ucx-07-evW"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="GuZ-Iw-vqT">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Find My Car" image="FindMyCar" id="2W4-Oh-j3P"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bVl-rn-Hge" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3519" y="-116"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="k2p-TB-TKD">
+            <objects>
+                <viewController id="XMn-xH-40s" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="auW-Wn-aqy"/>
+                        <viewControllerLayoutGuide type="bottom" id="XWU-0d-I53"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="S5K-iF-8f4">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="d61-ri-zwR"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pjn-Nx-ufV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2823" y="-115"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="bBO-n5-i88">
+            <objects>
+                <viewController id="t5R-4W-xl2" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="oiX-qc-Q88"/>
+                        <viewControllerLayoutGuide type="bottom" id="ca7-Dh-AV7"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="jS1-ik-WEa">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="6IB-Op-elz"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aOo-Ci-mRF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2126" y="-116"/>
         </scene>
         <!--Map View Controller-->
         <scene sceneID="8iv-Fc-d9Y">
@@ -38,12 +161,37 @@
                     <view key="view" contentMode="scaleToFill" id="wqU-MW-2pt">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="right" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KML-ga-KiK" userLabel="Current Location">
+                                <rect key="frame" x="326" y="577" width="33" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <color key="tintColor" red="0.54944991241648489" green="1" blue="0.65997181432592333" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" image="CurrentLocation">
+                                    <color key="titleColor" red="0.54944991239999996" green="1" blue="0.65997181429999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="locationButtonTap:" destination="Ylb-5I-qFA" eventType="touchUpInside" id="D1n-sP-eXN"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="locationButton" destination="KML-ga-KiK" id="ztL-Hj-yfN"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pp0-ov-ydC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="228" y="-429"/>
+            <point key="canvasLocation" x="228" y="-429.53523238380814"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="CurrentLocation" width="64" height="64"/>
+        <image name="FindMyCar" width="64" height="64"/>
+        <image name="Icon-App-40x40" width="40" height="40"/>
+        <image name="Meter" width="64" height="64"/>
+    </resources>
 </document>
