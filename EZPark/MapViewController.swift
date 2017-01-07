@@ -10,6 +10,9 @@ import UIKit
 import GoogleMaps
 
 class MapViewController: UIViewController {
+    var mapView:GMSMapView?
+    var locationManager = CLLocationManager()
+    var didFindMyLocation = false
 
     @IBOutlet weak var locationButton: UIButton!
     override func viewDidLoad() {
@@ -22,10 +25,18 @@ class MapViewController: UIViewController {
     func setUpView() {
         //Camera
         let camera = GMSCameraPosition.camera(withLatitude: 38.9339, longitude: -77.1773, zoom: 15.0)
-        let mapView = GMSMapView.map(withFrame: CGRect.zero, camera: camera)
-        mapView.isMyLocationEnabled = true
-        view = mapView
+        mapView = GMSMapView.map(withFrame: CGRect.zero, camera: camera)
         
+        guard let mapView = mapView else {
+        return
+        }
+        mapView.isMyLocationEnabled = true
+        
+        view = mapView
+        mapView.addSubview(locationButton)
+        
+        //locationManager.delegate = self
+        locationManager.requestWhenInUseAuthorization()
         // Creates a marker in the center of the map.
         let marker = GMSMarker()
         marker.position = CLLocationCoordinate2D(latitude: 38.9339, longitude: -77.1773)
@@ -36,6 +47,11 @@ class MapViewController: UIViewController {
 
     @IBAction func locationButtonTap(_ sender: UIButton) {
         print("Location Button Tapped")
+        
+//        let myAnnotation: MKPointAnnotation = MKPointAnnotation()
+//        myAnnotation.coordinate = CLLocationCoordinate2DMake(userLocation.coordinate.latitude, userLocation.coordinate.longitude);
+//        myAnnotation.title = "Current location"
+//        mapView.addAnnotation(myAnnotation)
         
     }
     override func didReceiveMemoryWarning() {
