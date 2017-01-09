@@ -184,7 +184,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <color key="tintColor" red="0.54944991241648489" green="1" blue="0.65997181432592333" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" image="CurrentLocation">
+                                <state key="normal" image="Current Location">
                                     <color key="titleColor" red="0.54944991239999996" green="1" blue="0.65997181429999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
@@ -208,7 +208,7 @@
     </scenes>
     <resources>
         <image name="Car-35" width="35" height="35"/>
-        <image name="CurrentLocation" width="64" height="64"/>
+        <image name="Current Location" width="40" height="40"/>
         <image name="Near Me-35" width="35" height="35"/>
         <image name="Paid Parking-35" width="35" height="35"/>
         <image name="Screenshot-35" width="35" height="35"/>

@@ -2,11 +2,11 @@
   "images" : [
     {
       "idiom" : "universal",
+      "filename" : "Centre of Gravity-40.png",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
-      "filename" : "CurrentLocation.png",
       "scale" : "2x"
     },
     {
