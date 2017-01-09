@@ -53,7 +53,7 @@
                         </accessibility>
                         <rect key="contentStretch" x="0.0" y="0.0" width="0.75" height="1"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Meter" image="Paid Parking-35" id="eF2-8W-YfQ"/>
+                    <tabBarItem key="tabBarItem" title="Meter" image="Meter" id="eF2-8W-YfQ"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="btC-3p-Eqv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -102,7 +102,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Find My Car" image="Car-35" id="2W4-Oh-j3P"/>
+                    <tabBarItem key="tabBarItem" title="Find My Car" image="FindMyCar" id="2W4-Oh-j3P"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bVl-rn-Hge" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -131,7 +131,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Camera" image="Screenshot-35" id="d61-ri-zwR"/>
+                    <tabBarItem key="tabBarItem" title="Camera" image="Camera" id="d61-ri-zwR"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pjn-Nx-ufV" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -160,14 +160,14 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Settings" image="Settings-35" id="6IB-Op-elz"/>
+                    <tabBarItem key="tabBarItem" title="Settings" image="Settings" id="6IB-Op-elz"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aOo-Ci-mRF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-2126" y="-116"/>
         </scene>
-        <!--Map-->
+        <!--Find Parking-->
         <scene sceneID="8iv-Fc-d9Y">
             <objects>
                 <viewController id="Ylb-5I-qFA" customClass="MapViewController" customModule="EZPark" customModuleProvider="target" sceneMemberID="viewController">
@@ -195,7 +195,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Map" image="Near Me-35" id="6g0-Ac-lnU"/>
+                    <tabBarItem key="tabBarItem" title="Find Parking" image="Map" id="6g0-Ac-lnU"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="locationButton" destination="KML-ga-KiK" id="ztL-Hj-yfN"/>
@@ -207,11 +207,11 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Car-35" width="35" height="35"/>
+        <image name="Camera" width="35" height="35"/>
         <image name="Current Location" width="40" height="40"/>
-        <image name="Near Me-35" width="35" height="35"/>
-        <image name="Paid Parking-35" width="35" height="35"/>
-        <image name="Screenshot-35" width="35" height="35"/>
-        <image name="Settings-35" width="35" height="35"/>
+        <image name="FindMyCar" width="35" height="35"/>
+        <image name="Map" width="35" height="35"/>
+        <image name="Meter" width="35" height="35"/>
+        <image name="Settings" width="35" height="35"/>
     </resources>
 </document>
