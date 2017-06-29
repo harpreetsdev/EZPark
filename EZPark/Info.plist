@@ -3,7 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>Need your permission to access current location</string>
+	<string>EZ Park needs your permission to access your location.</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>EZ Park is accessing your location.</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>

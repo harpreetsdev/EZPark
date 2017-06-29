@@ -9,7 +9,8 @@
 import UIKit
 import GoogleMaps
 
-class MapViewController: UIViewController {
+
+class MapViewController: UIViewController, CLLocationManagerDelegate {
     var mapView:GMSMapView?
     var locationManager = CLLocationManager()
     var didFindMyLocation = false
@@ -47,6 +48,19 @@ class MapViewController: UIViewController {
 
     @IBAction func locationButtonTap(_ sender: UIButton) {
         print("Location Button Tapped")
+        if (CLLocationManager.locationServicesEnabled())
+        {
+            locationManager = CLLocationManager()
+            locationManager.delegate = self
+            locationManager.desiredAccuracy = kCLLocationAccuracyBest
+            locationManager.requestAlwaysAuthorization()
+            locationManager.startUpdatingLocation()
+            
+            guard let mapView = mapView else {
+                return
+            }
+//            mapView.showsUserLocation = true
+        }
         
 //        let myAnnotation: MKPointAnnotation = MKPointAnnotation()
 //        myAnnotation.coordinate = CLLocationCoordinate2DMake(userLocation.coordinate.latitude, userLocation.coordinate.longitude);
