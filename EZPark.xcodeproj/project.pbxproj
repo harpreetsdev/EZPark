@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		101420061F0BE4860081815B /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101420051F0BE4860081815B /* CameraViewController.swift */; };
 		101EE0911E0570D20055F6BA /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 101EE08F1E0570D20055F6BA /* GoogleMaps.framework */; };
 		101EE0921E0570D20055F6BA /* GoogleMapsCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 101EE0901E0570D20055F6BA /* GoogleMapsCore.framework */; };
 		101EE0941E0570DE0055F6BA /* GoogleMapsBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 101EE0931E0570DE0055F6BA /* GoogleMapsBase.framework */; };
@@ -46,6 +47,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		101420051F0BE4860081815B /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		101EE08F1E0570D20055F6BA /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
 		101EE0901E0570D20055F6BA /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMapsCore.framework; sourceTree = "<group>"; };
 		101EE0931E0570DE0055F6BA /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMapsBase.framework; sourceTree = "<group>"; };
@@ -140,6 +142,7 @@
 			children = (
 				105340BF1E04A74100F410D1 /* ViewController.swift */,
 				101EE0B61E057B0E0055F6BA /* MapViewController.swift */,
+				101420051F0BE4860081815B /* CameraViewController.swift */,
 			);
 			name = Controllers.;
 			sourceTree = "<group>";
@@ -323,6 +326,7 @@
 				105340C01E04A74100F410D1 /* ViewController.swift in Sources */,
 				105340BE1E04A74100F410D1 /* AppDelegate.swift in Sources */,
 				101EE0B71E057B0E0055F6BA /* MapViewController.swift in Sources */,
+				101420061F0BE4860081815B /* CameraViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
