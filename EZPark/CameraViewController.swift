@@ -40,5 +40,26 @@ class CameraViewController: UIViewController, UIImagePickerControllerDelegate, U
             self.present(imagePicker, animated: true, completion: nil)
         }
        }
+    
+//    @IBAction func openPhotoLibraryButton(sender: AnyObject) {
+//        if UIImagePickerController.isSourceTypeAvailable(UIImagePickerControllerSourceType.PhotoLibrary) {
+//            var imagePicker = UIImagePickerController()
+//            imagePicker.delegate = self
+//            imagePicker.sourceType = UIImagePickerControllerSourceType.PhotoLibrary;
+//            imagePicker.allowsEditing = true
+//            self.presentViewController(imagePicker, animated: true, completion: nil)
+//        }
+//    }
 
+    @IBAction func tapLibraryButton(_ sender: UIButton) {
+        if UIImagePickerController.isSourceTypeAvailable(UIImagePickerControllerSourceType.photoLibrary) {
+            let imagePicker = UIImagePickerController()
+            imagePicker.delegate = (self as UIImagePickerControllerDelegate as! UIImagePickerControllerDelegate & UINavigationControllerDelegate)
+            imagePicker.sourceType = UIImagePickerControllerSourceType.photoLibrary;
+            imagePicker.allowsEditing = true
+            self.present(imagePicker, animated: true, completion: nil)
+        }
+    }
+    
+    
 }
