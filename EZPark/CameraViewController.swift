@@ -32,6 +32,8 @@ class CameraViewController: UIViewController, UIImagePickerControllerDelegate, U
         // Pass the selected object to the new view controller.
     }
     */
+    
+    // Access Camera from the Camera View
     @IBAction func tapCameraButton(_ sender: UIButton) {
         if UIImagePickerController.isSourceTypeAvailable(UIImagePickerControllerSourceType.camera) {
             let imagePicker = UIImagePickerController()
@@ -42,16 +44,7 @@ class CameraViewController: UIViewController, UIImagePickerControllerDelegate, U
         }
        }
     
-//    @IBAction func openPhotoLibraryButton(sender: AnyObject) {
-//        if UIImagePickerController.isSourceTypeAvailable(UIImagePickerControllerSourceType.PhotoLibrary) {
-//            var imagePicker = UIImagePickerController()
-//            imagePicker.delegate = self
-//            imagePicker.sourceType = UIImagePickerControllerSourceType.PhotoLibrary;
-//            imagePicker.allowsEditing = true
-//            self.presentViewController(imagePicker, animated: true, completion: nil)
-//        }
-//    }
-
+    // Access Photo Library from the Camera View Controller
     @IBAction func tapLibraryButton(_ sender: UIButton) {
         if UIImagePickerController.isSourceTypeAvailable(UIImagePickerControllerSourceType.photoLibrary) {
             let imagePicker = UIImagePickerController()
@@ -72,11 +65,11 @@ class CameraViewController: UIViewController, UIImagePickerControllerDelegate, U
         let compressedJPGImage = UIImage(data: imageData!)
         UIImageWriteToSavedPhotosAlbum(compressedJPGImage!, nil, nil, nil)
         
-        let alert = UIAlertView(title: "Wow",
-                                message: "Your image has been saved to Photo Library!",
-                                delegate: nil,
-                                cancelButtonTitle: "Ok")
-        alert.show()
+//        let alert = UIAlertView(title: "Wow",
+//                                message: "Your image has been saved to Photo Library!",
+//                                delegate: nil,
+//                                cancelButtonTitle: "Ok")
+//        alert.show()
     }
     
     
