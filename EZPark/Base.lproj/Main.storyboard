@@ -220,10 +220,21 @@
                                     <action selector="tapLibraryButton:" destination="qx1-4B-ibL" eventType="touchUpInside" id="0q7-TW-nfq"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bcy-le-efd">
+                                <rect key="frame" x="313" y="105" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Save"/>
+                                <connections>
+                                    <action selector="saveButton:" destination="qx1-4B-ibL" eventType="touchUpInside" id="w1R-bA-r3D"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item" id="gbz-ZG-VWq"/>
+                    <connections>
+                        <outlet property="imagePicked" destination="7PM-TP-iri" id="bUE-DE-9lO"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="A6g-Ej-Bvb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
